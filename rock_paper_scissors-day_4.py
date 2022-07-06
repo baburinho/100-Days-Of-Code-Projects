@@ -6,7 +6,7 @@ import random
 rock_paper_scissors = ['rock', 'paper', 'scissors']
 
 rps_machine_choice = random.choice(rock_paper_scissors)
-rps_user_choice = input("Rock, paper, or scissors? ")
+rps_user_choice = input("Rock, paper, or scissors?\n")
 rps_user_choice = rps_user_choice.lower()
 
 rock ="""
